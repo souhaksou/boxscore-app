@@ -15,7 +15,6 @@ const boxscore = async (url) => {
       // title
       const title = $('.box-title');
       const boxTitle = title.text();
-      console.log(boxTitle);
 
       // 對戰組合隊伍
       const teams = $('.schedule_date_team');
